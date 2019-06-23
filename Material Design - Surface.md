@@ -197,3 +197,32 @@ Surfaces can be divided into areas which display different types of behavior.
 
 *A single surface can contain multiple pannable surfaces, such as an embedded map (1) that pans independently of a scrollable list (2).*
 
+![](./mio-design_assets_1lA44inCPDrT5UShoK5fQYynz-KISRSs6_materialattributes-constructingsurfaces-2.mp4)
+
+A card can stretch to display a region that scrolls independently of other card content.
+
+##### Stretchable surfaces  可拉伸的表面
+
+A stretchable surface can be stretched before reaching a limit, at which point the entire surface becomes rigid. Surfaces can stretch vertically, horizontally, or in both directions.
+
+可拉伸的表面能在到达极限之前被拉伸，此时整个表面都会变得刚硬。表面能够被垂直、水平拉伸，或者同时拉伸。
+
+Typically, user interaction with a surface will stretch it in one direction. For example, tapping “more details” can cause a card to grow vertically and display additional content.
+
+通常，用户与表面的交互会在一个方向上延伸。举个例子，点击“more details”会导致卡片沿着垂直方向延伸，并展示额外的内容。
+
+![](./mio-design_assets_1SdOX6Lmt-WHkMKkQ0ySDQmucI7X1oK8X_surfaces-stretchvert.mp4)
+
+Material stretch direction can be exclusively vertical.
+
+![](./mio-design_assets_16aoHYwbnA-hU5bjAUYFWHscqArnDczz9_surfaces-stretchhoriz.mp4)
+
+Material stretch direction can be exclusively horizontal.
+
+Material 延伸的方向也能是水平的。
+
+![](./mio-design_assets_1TMUunFfJc9gZHZGevKpY7l6P142KIC-7_surfaces-stretchverthoriz.mp4)
+
+Material stretch direction can be along both horizontal and vertical axises, either independently or simultaneously.
+
+Material 延伸方向能够同时沿着水平和垂直的坐标轴
